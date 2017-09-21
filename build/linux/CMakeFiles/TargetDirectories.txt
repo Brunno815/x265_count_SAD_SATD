@@ -1,0 +1,7 @@
+/home/brunno/x265_countSAD/build/linux/CMakeFiles/clean-generated.dir
+/home/brunno/x265_countSAD/build/linux/CMakeFiles/cli.dir
+/home/brunno/x265_countSAD/build/linux/common/CMakeFiles/common.dir
+/home/brunno/x265_countSAD/build/linux/encoder/CMakeFiles/encoder.dir
+/home/brunno/x265_countSAD/build/linux/CMakeFiles/uninstall.dir
+/home/brunno/x265_countSAD/build/linux/CMakeFiles/x265-shared.dir
+/home/brunno/x265_countSAD/build/linux/CMakeFiles/x265-static.dir

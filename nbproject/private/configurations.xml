@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="source" name="0">
+      <df name="cmake">
+      </df>
+      <df name="common">
+        <df name="arm">
+          <in>asm-primitives.cpp</in>
+          <in>asm.S</in>
+          <in>blockcopy8.S</in>
+          <in>blockcopy8.h</in>
+          <in>cpu-a.S</in>
+          <in>dct-a.S</in>
+          <in>dct8.h</in>
+          <in>intrapred.h</in>
+          <in>ipfilter8.S</in>
+          <in>ipfilter8.h</in>
+          <in>loopfilter.h</in>
+          <in>mc-a.S</in>
+          <in>mc.h</in>
+          <in>pixel-util.S</in>
+          <in>pixel-util.h</in>
+          <in>pixel.h</in>
+          <in>sad-a.S</in>
+          <in>ssd-a.S</in>
+        </df>
+        <df name="ppc">
+          <in>dct_altivec.cpp</in>
+          <in>intrapred_altivec.cpp</in>
+          <in>ipfilter_altivec.cpp</in>
+          <in>pixel_altivec.cpp</in>
+          <in>ppccommon.h</in>
+        </df>
+        <df name="vec">
+          <in>dct-sse3.cpp</in>
+          <in>dct-sse41.cpp</in>
+          <in>dct-ssse3.cpp</in>
+          <in>vec-primitives.cpp</in>
+        </df>
+        <df name="x86">
+          <in>asm-primitives.cpp</in>
+          <in>blockcopy8.asm</in>
+          <in>blockcopy8.h</in>
+          <in>const-a.asm</in>
+          <in>cpu-a.asm</in>
+          <in>dct8.asm</in>
+          <in>dct8.h</in>
+          <in>intrapred.h</in>
+          <in>intrapred16.asm</in>
+          <in>intrapred8.asm</in>
+          <in>intrapred8_allangs.asm</in>
+          <in>ipfilter16.asm</in>
+          <in>ipfilter8.asm</in>
+          <in>ipfilter8.h</in>
+          <in>loopfilter.asm</in>
+          <in>loopfilter.h</in>
+          <in>mc-a.asm</in>
+          <in>mc-a2.asm</in>
+          <in>mc.h</in>
+          <in>pixel-32.asm</in>
+          <in>pixel-a.asm</in>
+          <in>pixel-util.h</in>
+          <in>pixel-util8.asm</in>
+          <in>pixel.h</in>
+          <in>pixeladd8.asm</in>
+          <in>sad-a.asm</in>
+          <in>sad16-a.asm</in>
+          <in>seaintegral.asm</in>
+          <in>seaintegral.h</in>
+          <in>ssd-a.asm</in>
+          <in>x86inc.asm</in>
+          <in>x86util.asm</in>
+        </df>
+        <in>bitstream.cpp</in>
+        <in>bitstream.h</in>
+        <in>comlab215.cpp</in>
+        <in>comlab215.h</in>
+        <in>common.cpp</in>
+        <in>common.h</in>
+        <in>constants.cpp</in>
+        <in>constants.h</in>
+        <in>contexts.h</in>
+        <in>cpu.cpp</in>
+        <in>cpu.h</in>
+        <in>cudata.cpp</in>
+        <in>cudata.h</in>
+        <in>dct.cpp</in>
+        <in>deblock.cpp</in>
+        <in>deblock.h</in>
+        <in>frame.cpp</in>
+        <in>frame.h</in>
+        <in>framedata.cpp</in>
+        <in>framedata.h</in>
+        <in>intrapred.cpp</in>
+        <in>ipfilter.cpp</in>
+        <in>loopfilter.cpp</in>
+        <in>lowres.cpp</in>
+        <in>lowres.h</in>
+        <in>md5.cpp</in>
+        <in>md5.h</in>
+        <in>mv.h</in>
+        <in>param.cpp</in>
+        <in>param.h</in>
+        <in>piclist.cpp</in>
+        <in>piclist.h</in>
+        <in>picyuv.cpp</in>
+        <in>picyuv.h</in>
+        <in>pixel.cpp</in>
+        <in>predict.cpp</in>
+        <in>predict.h</in>
+        <in>primitives.cpp</in>
+        <in>primitives.h</in>
+        <in>quant.cpp</in>
+        <in>quant.h</in>
+        <in>scalinglist.cpp</in>
+        <in>scalinglist.h</in>
+        <in>shortyuv.cpp</in>
+        <in>shortyuv.h</in>
+        <in>slice.cpp</in>
+        <in>slice.h</in>
+        <in>threading.cpp</in>
+        <in>threading.h</in>
+        <in>threadpool.cpp</in>
+        <in>threadpool.h</in>
+        <in>version.cpp</in>
+        <in>wavefront.cpp</in>
+        <in>wavefront.h</in>
+        <in>winxp.cpp</in>
+        <in>winxp.h</in>
+        <in>yuv.cpp</in>
+        <in>yuv.h</in>
+      </df>
+      <df name="compat">
+        <df name="getopt">
+          <in>getopt.c</in>
+          <in>getopt.h</in>
+        </df>
+        <df name="msvc">
+          <in>stdint.h</in>
+        </df>
+      </df>
+      <df name="dynamicHDR10">
+        <df name="json11">
+          <in>json11.cpp</in>
+          <in>json11.h</in>
+        </df>
+        <in>BasicStructures.h</in>
+        <in>JsonHelper.cpp</in>
+        <in>JsonHelper.h</in>
+        <in>SeiMetadataDictionary.cpp</in>
+        <in>SeiMetadataDictionary.h</in>
+        <in>api.cpp</in>
+        <in>hdr10plus.h</in>
+        <in>metadataFromJson.cpp</in>
+        <in>metadataFromJson.h</in>
+      </df>
+      <df name="encoder">
+        <in>analysis.cpp</in>
+        <in>analysis.h</in>
+        <in>api.cpp</in>
+        <in>bitcost.cpp</in>
+        <in>bitcost.h</in>
+        <in>dpb.cpp</in>
+        <in>dpb.h</in>
+        <in>encoder.cpp</in>
+        <in>encoder.h</in>
+        <in>entropy.cpp</in>
+        <in>entropy.h</in>
+        <in>frameencoder.cpp</in>
+        <in>frameencoder.h</in>
+        <in>framefilter.cpp</in>
+        <in>framefilter.h</in>
+        <in>level.cpp</in>
+        <in>level.h</in>
+        <in>motion.cpp</in>
+        <in>motion.h</in>
+        <in>nal.cpp</in>
+        <in>nal.h</in>
+        <in>ratecontrol.cpp</in>
+        <in>ratecontrol.h</in>
+        <in>rdcost.h</in>
+        <in>reference.cpp</in>
+        <in>reference.h</in>
+        <in>sao.cpp</in>
+        <in>sao.h</in>
+        <in>search.cpp</in>
+        <in>search.h</in>
+        <in>sei.cpp</in>
+        <in>sei.h</in>
+        <in>slicetype.cpp</in>
+        <in>slicetype.h</in>
+        <in>weightPrediction.cpp</in>
+      </df>
+      <df name="input">
+        <in>input.cpp</in>
+        <in>input.h</in>
+        <in>y4m.cpp</in>
+        <in>y4m.h</in>
+        <in>yuv.cpp</in>
+        <in>yuv.h</in>
+      </df>
+      <df name="output">
+        <in>output.cpp</in>
+        <in>output.h</in>
+        <in>raw.cpp</in>
+        <in>raw.h</in>
+        <in>reconplay.cpp</in>
+        <in>reconplay.h</in>
+        <in>y4m.cpp</in>
+        <in>y4m.h</in>
+        <in>yuv.cpp</in>
+        <in>yuv.h</in>
+      </df>
+      <df name="profile">
+        <df name="PPA">
+          <in>ppa.cpp</in>
+          <in>ppa.h</in>
+          <in>ppaApi.h</in>
+        </df>
+        <df name="vtune">
+          <in>vtune.cpp</in>
+          <in>vtune.h</in>
+        </df>
+        <in>cpuEvents.h</in>
+      </df>
+      <df name="test">
+        <in>checkasm-a.asm</in>
+        <in>checkasm-arm.S</in>
+        <in>intrapredharness.cpp</in>
+        <in>intrapredharness.h</in>
+        <in>ipfilterharness.cpp</in>
+        <in>ipfilterharness.h</in>
+        <in>mbdstharness.cpp</in>
+        <in>mbdstharness.h</in>
+        <in>pixelharness.cpp</in>
+        <in>pixelharness.h</in>
+        <in>testbench.cpp</in>
+        <in>testharness.h</in>
+      </df>
+      <in>x265-extras.cpp</in>
+      <in>x265-extras.h</in>
+      <in>x265.cpp</in>
+      <in>x265.h</in>
+      <in>x265cli.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/BasketballDrive_1920x1080_50.yuv --input-res 1920x1080 --fps 50 -f 5 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/BasketballDrive_1920x1080_50.yuv --input-res 1920x1080 --fps 50 -f 50 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --subme 7</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/BasketballDrive_1920x1080_50.yuv --input-res 1920x1080 --fps 50 -f 50 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/BasketballDrive_1920x1080_50.yuv --input-res 1920x1080 --fps 50 -f 50 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --me 0</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/BasketballDrive_1920x1080_50.yuv --input-res 1920x1080 --fps 50 -f 50 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --ref 1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/BasketballDrive_1920x1080_50.yuv --input-res 1920x1080 --fps 50 -f 30 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --ref 1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/BQTerrace_1920x1080_60.yuv --input-res 1920x1080 --fps 60 -f 30 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --ref 1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/Cactus_1920x1080_50.yuv --input-res 1920x1080 --fps 50 -f 30 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --ref 1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/Kimono1_1920x1080_24.yuv --input-res 1920x1080 --fps 24 -f 30 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --ref 1</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" --input ~/origCfP/ParkScene_1920x1080_24.yuv --input-res 1920x1080 --fps 24 -f 30 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --ref 1</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" --input ~/origCfP/ParkScene_1920x1080_24.yuv --input-res 1920x1080 --fps 24 -f 30 --seek 0 -o video_out.yuv --frame-threads 1 --pools none --no-wpp --qp 32 --ref 1</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
